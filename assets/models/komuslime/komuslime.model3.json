@@ -6,7 +6,16 @@
 			"komuslime.1024/texture_00.png"
 		],
 		"Physics": "komuslime.physics3.json",
-		"DisplayInfo": "komuslime.cdi3.json"
+		"DisplayInfo": "komuslime.cdi3.json",
+		"Motions": {
+			"Tap": [
+				{
+					"File": "Scene1.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			]
+		}
 	},
 	"Groups": [
 		{
@@ -18,6 +27,12 @@
 			"Target": "Parameter",
 			"Name": "LipSync",
 			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": ""
 		}
 	]
 }
