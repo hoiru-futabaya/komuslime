@@ -17,4 +17,4 @@ y = 0
 z = 0
 # モデルの当たり判定とモーショングループの紐付け
 [models.hitInfo]
-Scene1 = "Tap"
+HitArea = "Tap"
